@@ -1,5 +1,19 @@
-//require inquirer
 var inquirer = require('inquirer');
-//create a list of leters to choose from
-var availableLetters = "abcdefghijklmnopqrstuvwxyz";
-var words = ["pumpkin", "ghost", "witch", "skeleton", "zombie"];
+
+//constructor function to choose a word
+currentWord = words[Math.floor(Math.random() * words.length)];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//select the 'random' word for the game
