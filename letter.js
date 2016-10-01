@@ -4,7 +4,7 @@ var inquirer = require('inquirer');
 var availableLetters = "abcdefghijklmnopqrstuvwxyz";
 
 //array of words
-var words = ["pumpkin", "ghost", "witch", "skeleton", "zombie"];
+
 
 
 

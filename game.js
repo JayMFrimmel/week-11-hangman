@@ -1,7 +1,13 @@
 var inquirer = require('inquirer');
 
 //constructor function to choose a word
-currentWord = words[Math.floor(Math.random() * words.length)];
+function startGame() {
+	numGuesses = 9;
+wordChoice = wordsList[Math.floor(Math.random() * wordsList.length)];
+	lettersInWordChoice = wordChoice.split("");
+	numBlanks = lettersInWordChoice.length;
+	
+}
 
 
 
